@@ -3,13 +3,13 @@ import { FeatureItem, Speaker, BundlePricing } from './types';
 
 export const PROGRAM_NAME = "AI APP & VIBE CODING";
 
-// Logic: Đếm ngược đến 19h30 ngày 06/03/2026
-const targetDate = new Date(2026, 2, 6, 19, 30, 0); // Month is 0-indexed (2 = March)
+// Logic: Đếm ngược đến hết 24h ngày 04/04/2026
+const targetDate = new Date(2026, 3, 4, 23, 59, 59); // Month is 0-indexed (3 = April)
 
 export const COUNTDOWN_TARGET = targetDate.toISOString();
 
 // Link tham gia nhóm Zalo sau khi thanh toán thành công (Duy nhất 1 link này)
-export const ZALO_GROUP_URL = "https://zalo.me/g/jmtkth644";
+export const ZALO_GROUP_URL = "https://zalo.me/g/yu8lyojufdn3brro7xag";
 
 // URL Web App Google Apps Script
 export const GOOGLE_SHEET_WEBAPP_URL = "https://script.google.com/macros/s/AKfycbxfBzhaTPCVv0wLfMenlNAGn7LZaMS1g5jhJPo53ZR_ew_m5MvbaMtYqZDPQpgQKO8QWA/exec"; 
@@ -79,8 +79,8 @@ export const SPEAKER_INFO: Speaker = {
 
 export const PRICING: BundlePricing = {
   originalPrice: 8500000, 
-  discountAmount: 7903000,
-  finalPrice: 597000
+  discountAmount: 8103000,
+  finalPrice: 397000
 };
 
 export const TARGET_AUDIENCE = [
