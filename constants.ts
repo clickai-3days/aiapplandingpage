@@ -3,8 +3,8 @@ import { FeatureItem, Speaker, BundlePricing } from './types';
 
 export const PROGRAM_NAME = "AI APP & VIBE CODING";
 
-// Logic: Đếm ngược đến hết 24h ngày 04/04/2026
-const targetDate = new Date(2026, 3, 4, 23, 59, 59); // Month is 0-indexed (3 = April)
+// Logic: Đếm ngược đến 6h sáng ngày 09/04/2026
+const targetDate = new Date(2026, 3, 9, 6, 0, 0); // Month is 0-indexed (3 = April)
 
 export const COUNTDOWN_TARGET = targetDate.toISOString();
 
@@ -79,8 +79,8 @@ export const SPEAKER_INFO: Speaker = {
 
 export const PRICING: BundlePricing = {
   originalPrice: 8500000, 
-  discountAmount: 8103000,
-  finalPrice: 397000
+  discountAmount: 8003000,
+  finalPrice: 497000
 };
 
 export const TARGET_AUDIENCE = [
